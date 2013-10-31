@@ -639,12 +639,12 @@
 		"selected_items":
 		[
 			[
-				"",
-				"/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers_custom/bootstrap_websitemakers_custom.sublime-project"
-			],
-			[
 				"make",
 				"/home/mike/websitemakers/makefiles/makefiles.sublime-project"
+			],
+			[
+				"",
+				"/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers_custom/bootstrap_websitemakers_custom.sublime-project"
 			],
 			[
 				"ex",
