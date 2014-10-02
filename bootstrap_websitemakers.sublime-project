@@ -2,7 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers"
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }

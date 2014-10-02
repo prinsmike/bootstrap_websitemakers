@@ -4,68 +4,60 @@
 		"selected_items":
 		[
 			[
-				"dd",
-				"dd"
-			],
-			[
-				"Pr",
-				"Printf	n int, err error ƒ"
-			],
-			[
-				"Nul",
-				"NullString	struct ʈ"
-			],
-			[
 				"Prin",
-				"Println	n int, err error ƒ"
-			],
-			[
-				"print",
 				"Printf	n int, err error ƒ"
 			],
 			[
-				"Print",
-				"Printf	n int, err error ƒ"
+				"Read",
+				"ReadBytes	line []byte, err error ƒ"
 			],
 			[
-				"Spri",
-				"Sprintf	string ƒ"
-			],
-			[
-				"bootstrap",
-				"bootstrap-modal"
-			],
-			[
-				"Sprint",
-				"Sprintln	string ƒ"
-			],
-			[
-				"Sp",
-				"Sprintf	string ƒ"
-			],
-			[
-				"rece",
-				"receivedFix	 ν"
+				"Re",
+				"ResponseWriter	interface ¡"
 			],
 			[
 				"F",
 				"Fprintf	n int, err error ƒ"
 			],
 			[
-				"fP",
-				"Fprint	n int, err error ƒ"
+				"Fatal",
+				"Fatalln	 ƒ"
 			],
 			[
-				"S",
-				"Sprintln	string ƒ"
+				"U",
+				"UserAgent	string ƒ"
 			],
 			[
-				"e",
-				"e	*Error ν"
+				"W",
+				"WriteHeader	 ƒ"
+			],
+			[
+				"pack",
+				"package main	 ʂ"
+			],
+			[
+				"Write",
+				"WriteString	int, error ƒ"
+			],
+			[
+				"N",
+				"NewWriter	*bufio.Writer ƒ"
+			],
+			[
+				"St",
+				"Stdout	*os.File ν"
+			],
+			[
+				"Scan",
+				"Scanf	n int, err error ƒ"
 			],
 			[
 				"New",
 				"NewReader	*bufio.Reader ƒ"
+			],
+			[
+				"Res",
+				"Response	struct ʈ"
 			],
 			[
 				"Respons",
@@ -88,8 +80,8 @@
 				"ErrUnexpectedEOF	error ν"
 			],
 			[
-				"Write",
-				"WriteByte	error ƒ"
+				"Print",
+				"Println	n int, err error ƒ"
 			],
 			[
 				"Spr",
@@ -102,10 +94,6 @@
 			[
 				"ModeS",
 				"ModeSymlink	 Ɩ"
-			],
-			[
-				"Read",
-				"ReadLine	line []byte, isPrefix bool, err error ƒ"
 			],
 			[
 				"line",
@@ -146,20 +134,16 @@
 			[
 				"imp",
 				"import	import (...) ʂ"
-			],
-			[
-				"pack",
-				"package main	package main ʂ"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "bootstrap_websitemakers.info",
+			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 1895,
+				"buffer_size": 3552,
 				"line_ending": "Unix"
 			}
 		}
@@ -167,15 +151,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 132.0,
+		"height": 394.0,
 		"selected_items":
 		[
 			[
-				"proj",
+				"projsav",
 				"Project: Save As"
 			],
 			[
-				"close",
+				"projadd",
+				"Project: Add Folder"
+			],
+			[
+				"proj",
+				"Project: Close"
+			],
+			[
+				"projsa",
+				"Project: Save As"
+			],
+			[
+				"projcl",
 				"Project: Close"
 			],
 			[
@@ -187,40 +183,28 @@
 				"Indentation: Reindent Lines"
 			],
 			[
-				"ind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"indent",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"sftp",
-				"SFTP: Show Panel"
-			],
-			[
-				"",
-				"Indentation: Reindent Lines"
+				"packa",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"proje",
-				"Project: Save As"
+				"indent",
+				"Indentation: Reindent Lines"
 			],
 			[
-				"packa",
-				"Package Control: Install Package"
+				"proja",
+				"Project: Add Folder"
+			],
+			[
+				"projecl",
+				"Project: Close"
+			],
+			[
+				"projclose",
+				"Project: Close"
 			],
 			[
 				"package",
@@ -249,6 +233,14 @@
 			[
 				"pro",
 				"Project: Save As"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
 			],
 			[
 				"Fet",
@@ -307,11 +299,15 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
-		"height": 146.0
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -322,169 +318,174 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers",
+		"/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers/templates"
+	],
 	"file_history":
 	[
-		"/home/mike/websitemakers/websites/go2properties.co.za/blocks/homepage.html",
-		"/home/mike/websitemakers/websites/houseofasantespa.co.za/blocks/header.html",
-		"/home/mike/websitemakers/websites/mycityinfo/js/chosen.js",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/create-content.block.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/location.button.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/welcome.block.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/anonymous.front.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/signup.block.html",
-		"/home/mike/websitemakers/drupal/themes/bootstrap_mycityinfo_main/sftp-config.json",
-		"/myfiles/Documents/Minecraft/uhc.md",
-		"/tmp/list.txt",
-		"/home/mike/websitemakers/websites/thabaphaswa.co.za/blocks/home.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/login.block.html",
-		"/home/mike/Documents/Work/pol003-rescue",
-		"/home/mike/go/src/code.google.com/p/go-tour/gotour/tour.go",
-		"/home/mike/go/src/code.google.com/p/go-tour/README",
-		"/home/mike/go/src/code.google.com/p/go-tour/codereview.cfg",
-		"/home/mike/websitemakers/tmp/statuses/submodules/fbss_comments/fbss_comments.js",
-		"/home/mike/websitemakers/tmp/statuses/submodules/fbss_comments/fbss_comments.module",
-		"/home/mike/websitemakers/drupal/themes/bootstrap_mycityinfo_main/template.php",
-		"/home/mike/websitemakers/tmp/bootstrap/includes/form.inc",
-		"/home/mike/websitemakers/drupal/modules/websitemakers_form_modifications/websitemakers_form_modification_debug/websitemakers_form_modifications_debug.module",
-		"/home/mike/websitemakers/tmp/bootstrap/includes/bootstrap.inc",
-		"/home/mike/websitemakers/tmp/bootstrap/includes/admin.inc",
-		"/home/mike/websitemakers/tmp/bootstrap/js/progress.js",
-		"/home/mike/websitemakers/tmp/bootstrap/js/bootstrap_ajax.js",
-		"/home/mike/websitemakers/tmp/bootstrap/js/bootstrap_ajax_view.js",
-		"/home/mike/websitemakers/tmp/bootstrap/templates/comment.tpl.php",
-		"/home/mike/websitemakers/tmp/bootstrap/template.php",
-		"/home/mike/websitemakers/tmp/bootstrap/README.txt",
-		"/home/mike/websitemakers/tmp/bootstrap/theme-settings.php",
-		"/home/mike/websitemakers/tmp/bootstrap/bootstrap.info",
-		"/home/mike/devel/drupal/modules/mycandy/mycandy.js",
-		"/myfiles/Documents/Minecraft/uhc.txt",
-		"/home/mike/websitemakers/tmp/bootstrap/includes/theme.inc",
-		"/home/mike/websitemakers/websites/mycityinfo/modules.md",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/business.login.block.html",
-		"/home/mike/websitemakers/drupal/themes/bootstrap_mycityinfo_main/templates/page.tpl.php",
-		"/home/mike/websitemakers/websites/mycityinfo/modules.txt",
-		"/home/mike/websitemakers/websites/mycityinfo/setup.info",
-		"/myfiles/Documents/Work/mycityinfo.txt",
-		"/home/mike/websitemakers/tmp/panels_bootstrap_layouts/plugins/styles/bootstrap_region.inc",
-		"/home/mike/websitemakers/tmp/panels_bootstrap_layouts/plugins/layouts/panels-bootstrap-layouts-admin.css",
-		"/home/mike/websitemakers/tmp/panels_bootstrap_layouts/plugins/layouts/bootstrap_twocol_stacked/bootstrap_twocol_stacked.inc",
-		"/home/mike/websitemakers/tmp/panels_bootstrap_layouts/plugins/layouts/bootstrap_twocol_stacked/bootstrap-twocol-stacked.tpl.php",
-		"/home/mike/websitemakers/drupal/modules/acedit/acedit.module",
-		"/home/mike/tmp/ace_editor/ace_editor.module",
-		"/home/mike/tmp/ace_editor/ace_editor.install",
-		"/myfiles/Documents/Work/test.html",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/welcome.block.txt",
-		"/home/mike/websitemakers/websites/mycityinfo/blocks/welcome.block.text",
-		"/home/mike/websitemakers/drupal/themes/bootstrap_mycityinfo_main/css/overrides.css",
-		"/home/mike/tmp/bootstrap/templates/page.tpl.php",
-		"/myfiles/Documents/Work/mypolokwane-migration/mypol.csv",
-		"/myfiles/Documents/Work/email-setup.md",
-		"/home/mike/websitemakers/makefiles/sftp-config.json",
-		"/home/mike/devel/julie/css/style.css",
-		"/home/mike/devel/julie/js/start.js",
-		"/home/mike/devel/julie/start.html",
-		"/home/mike/devel/bootstrap/Arch64LT/index.html",
-		"/home/mike/tmp/test.html",
-		"/home/mike/devel/tmp/aegir-migration.txt",
-		"/home/mike/Music/tmp/201308/best-electro-house-summer-august2013_song-list.txt",
-		"/home/mike/tmp/observer-dns-zone-file",
-		"/tmp/Observer.co.za DNS zone file",
-		"/myfiles/Documents/J/fb.txt",
-		"/home/mike/Books/tmp/Bukowski-readings/Charles Bukowski/Charles Bukowski - Bukowski Lives!/Bukowski Lives!.txt",
-		"/home/mike/Books/tmp/Bukowski-readings/Charles Bukowski/1986 - Charles Bukowski reads 'Do You Use a Notebook'/Details.txt",
-		"/myfiles/Music/tmp/201308/best-electro-house-summer-august2013_song-list.txt",
-		"/home/mike/tmp/julie",
-		"/home/mike/Podcasts/podcasts.txt",
-		"/myfiles/Podcasts/podcasts.txt",
-		"/myfiles/Education/Creative-Writing/MIT-OCW_Writing-Workshop_SP.292/lake-erie_by-meriam-kotzin.md",
-		"/myfiles/Education/Creative-Writing/MIT-OCW_Writing-Workshop_SP.292/i-know-a-man_by-robert-creely.md",
-		"/myfiles/Education/Creative-Writing/MIT-OCW_Writing-Workshop_SP.292/aids.md",
-		"/myfiles/Education/Creative-Writing/MIT-OCW_Writing-Workshop_SP.292/the-river-merchants-wife.md",
-		"/home/mike/arch/sites/default/markdown/install-arch.md",
-		"/myfiles/Music/tmp/201306/The Pineapple Thief - All the Wars (2012) [Limited Edition] [2CD] [EAC-FLAC]/CD 1 - All the Wars/convert",
-		"/home/mike/go2",
-		"/myfiles/Documents/Games/Neverwinter/ticket-130520-001274",
-		"/home/mike/devel/go/mypol/mypol.go",
-		"/home/mike/.config/sublime-text-2/Packages/SFTP/SFTP.sublime-settings",
-		"/home/mike/devel/go/mypol/sftp-config.json",
-		"/home/mike/torrents-external/Books/Mathematics For Computer Science 2012 V413HAV/Read Me.txt",
-		"/home/mike/Downloads/AdvancedAuctionhouse/AdvancedAuctionhouse.toc",
-		"/home/mike/Downloads/KS_KillZone_WIP.xml",
-		"/home/mike/bak/router/config.txt",
-		"/myfiles/Downloads/KS_KillZone_WIP.xml",
-		"/myfiles/Downloads/KS_KillZone_WIP.",
-		"/myfiles/Documents/workexercise.txt",
-		"/home/mike/devel/bootstrap/Arch64LT/contact.html",
-		"/home/mike/devel/bootstrap/Arch64LT/our-approach.html",
-		"/home/mike/devel/bootstrap/Arch64LT/why-website.html",
-		"/home/mike/devel/bootstrap/Arch64LT/website-design.html",
-		"/home/mike/devel/bootstrap/Arch64LT/seo.html",
-		"/home/mike/devel/bootstrap/Arch64LT/social-media.html",
-		"/home/mike/Documents/rompw.txt",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/elsa/elsa-an-overview.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/09-research.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/10-statistics.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/08-hands-on-project-rollout.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/07-four-skills.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/06-develop-english-skills.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/05-burning-issues.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/04-definitions.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/03-how-to-join.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/about.html",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/home/02-measure.html",
+		"/home/mike/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mike/websitemakers/websites/html/kaleidoprax/css/general.css",
+		"/home/mike/.config/sublime-text-3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/home/mike/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/mike/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/mike/websitemakers/websites/kaleidoprax/html/header.html",
+		"/home/mike/websitemakers/websites/kaleidoprax/Newsletter/20140903/newsletter.html",
+		"/home/mike/websitemakers/websites/kaleidoprax/Newsletter/20140903/index.html",
+		"/home/mike/tmp/poly/polymer-tutorial-master/starter/index.html",
+		"/home/mike/tmp/spamvertise.html",
+		"/home/mike/websitemakers/websites/kaleidoprax/scrolling-animation/wow.js",
+		"/home/mike/websitemakers/websites/kaleidoprax/scrolling-animation/animate.css",
+		"/home/mike/websitemakers/websites/kaleidoprax/html/test.html",
+		"/home/mike/websitemakers/websites/kaleidoprax/scrolling-animation/index.html",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/muxcount.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/dynroute.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/sql/mysql1.go",
+		"/home/mike/Documents/Minecraft/1.8DEV/notes.md",
+		"/home/mike/Documents/series-collections",
+		"/home/mike/websitemakers/websites/mikeprinsloo/bak/main-content-block-20140505-1625.html",
+		"/home/mike/websitemakers/websites/mikeprinsloo/ex/index.html",
+		"/home/mike/Documents/Minecraft/1.8DEV/Notes",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/muxmgo.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/webserv.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/mux.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/basicserv.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/domainmux.go",
+		"/home/mike/.config/sublime-text-3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/servtest.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/session.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gui/notificator.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/domainmux2.go",
+		"/home/mike/tmp/The_World_As_I_See_It_split_001.html",
+		"/home/mike/tmp/The_World_As_I_See_It_split_000.html",
+		"/myfiles/Books/Non-Fiction/Science/Physics/Einstein/Albert Einstein - Selected Works,Epub, Mobi/Albert Einstein - The World as I See It -v5.epub",
+		"/home/mike/devel/cv/cv.md",
+		"/home/mike/Documents/religion-notes.md",
+		"/home/mike/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/mike/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/mike/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/mike/go/src/github.com/prinsmike/ex/mgo/date.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/basic.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/random/coin.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/args.go",
+		"/home/mike/Documents/series.md",
+		"/home/mike/Documents/movies2watch.md",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/handle.go",
+		"/home/mike/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mike/go/src/github.com/prinsmike/ex/path/filepath/clean.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/render.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/math/multiplication-table.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/memory-model/memory-footprint.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/templates/layout.tmpl",
+		"/home/mike/go/src/github.com/prinsmike/ex/memory-model/memory-footprint2.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/io/ioutil/readdir.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/templates/t1/t1.tmpl",
+		"/home/mike/go/src/github.com/prinsmike/ex/martini/templates/t2/t2.tmpl",
+		"/home/mike/go/src/github.com/prinsmike/ex/time/time.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/allpaths.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/muxinsert.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/filesystem/walk.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/login.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/get.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gocrawl/example.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/mgo/all.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/rest/mgo.go",
+		"/home/mike/torrents/Local/Books/RESTful Web Services - Leonard Richardson, Sam Ruby November 2013/Please Readme.txt",
+		"/home/mike/torrents/Local/Books/RESTful Web Services - Leonard Richardson, Sam Ruby November 2013/Info.txt",
+		"/home/mike/go/src/github.com/prinsmike/ex/concurrency/convolution.go",
 		"/home/mike/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
-		"/home/mike/tmp/whywebsite.txt",
-		"/home/mike/devel/bootstrap/Arch64LT/css/bootstrap.css",
-		"/myfiles/Packages/ttf-yew-basturd/ttf-yew-basturd.install",
-		"/myfiles/Packages/ttf-yew-basturd/PKGBUILD",
-		"/myfiles/Packages/ttf-roughtrad/ttf-roughtrad.install",
-		"/myfiles/Packages/ttf-roughtrad/PKGBUILD",
-		"/myfiles/Packages/ttf-komika/ttf-komika.install",
-		"/myfiles/Packages/ttf-komika/PKGBUILD",
-		"/myfiles/Packages/ttf-flux/ttf-flux.install",
-		"/myfiles/Packages/ttf-flux/PKGBUILD",
-		"/myfiles/Packages/ttf-bebedera/ttf-bebedera.install",
-		"/myfiles/Packages/ttf-bebedera/PKGBUILD",
-		"/myfiles/Packages/ttf-architects-daughter/PKGBUILD",
-		"/myfiles/Packages/ttf-architects-daughter/ttf-architects-daughter.install",
-		"/home/mike/myfiles/Packages/ttf-architects-daughter/License.txt",
-		"/myfiles/Packages/ttf-blueprint/ttf-blueprint.install",
-		"/myfiles/Packages/ttf-blueprint/PKGBUILD",
-		"/home/mike/Downloads/fonts/BlueprintFonts/Yew-Basturd/Nyek! License.txt",
-		"/home/mike/Downloads/fonts/BlueprintFonts/Komika-Text/Komika.txt",
-		"/home/mike/Downloads/fonts/BlueprintFonts/Flux/Clayton Cowan Font License.txt",
-		"/home/mike/Downloads/fonts/BlueprintFonts/defharo_a-bebedera/OFL.txt",
-		"/home/mike/Downloads/fonts/BlueprintFonts/architects-daughter/Architects Daughter SIL OFL Font License.txt",
-		"/home/mike/Downloads/fonts/BlueprintFonts/archibald/fonts101.txt",
-		"/myfiles/Packages/ttf-djb-blueprint/PKGBUILD",
-		"/home/mike/Downloads/fonts/ttf-andika/PKGBUILD",
-		"/myfiles/Packages/ttf-djb-blueprint/ttf-djb-blueprint.install",
-		"/myfiles/Downloads/fonts/djb_blueprint/PKGBUILD",
-		"/home/mike/Downloads/fonts/ttf-ms-fonts/PKGBUILD",
-		"/myfiles/Downloads/fonts/djb_blueprint/dbaldwin-blueprint-TOU.txt",
-		"/home/mike/Downloads/fonts/djb_blueprint/dbaldwin-blueprint-TOU.txt"
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/multitemplate.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/html/path.html",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/html/index.html",
+		"/home/mike/tmp/fbresp.txt",
+		"/home/mike/devel/tmp/debbiemouton/debbie.css",
+		"/home/mike/devel/tmp/eagle/article1.txt",
+		"/home/mike/tmp/naboomwindpompfees.css",
+		"/home/mike/devel/tmp/eagle/eaglesnest.css",
+		"/home/mike/go/src/github.com/prinsmike/ex/gorilla/html/home.html",
+		"/home/mike/go/src/github.com/prinsmike/ex/mgo/mgo.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/mgo/ensureindex.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/stdinmgo.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/mgo/numbers.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/fmt/escapechars.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/exec/df.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/bytes/stdin.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/filemgo.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/stdin.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/stdinescape.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/bytes/resetbuffer.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/libserv.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/fileserv.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/net/http/html/index.html",
+		"/home/mike/go/src/github.com/prinsmike/ex/json/jsonconfigreader.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/json/settings.json",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execout.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execstdoutpipe.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execcommand.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execstart.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/crypto/sha1.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/concurrency/reallife.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/json/deencode.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/ioutil/readdir.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execlookpath.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/os/execlookpath2.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/fmt/scanf.go",
+		"/home/mike/go/src/github.com/prinsmike/ex/types/tointerfaceslice.go",
+		"/home/mike/devel/bash/utserv.methods",
+		"/home/mike/magnet",
+		"/home/mike/devel/bash/magnet",
+		"/home/mike/tmp/yadtest",
+		"/home/mike/magtest",
+		"/home/mike/tmp/yadtest1",
+		"/home/mike/tmp/yadtest2",
+		"/home/mike/tmp/y-ppa/y-ppa-manager/y-ppa-cmd",
+		"/home/mike/tmp/mag2tor",
+		"/home/mike/tmp/magnet"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"top",
-			"disabled",
-			"data",
-			"bootstrap",
-			"already",
-			"/mike/bootstrap/Arch64LT",
-			".active",
-			".btn {",
-			".btn",
-			"img-circle",
-			"../assets/",
-			"val",
-			"valFix",
-			"received",
-			"full_html",
-			"msingi",
+			"/sites/kaleidoprax.websitemakers.co.za",
+			"illiterate-box",
+			"[path]",
+			"[imgpath]",
+			"homepage-border-right",
+			"homepage-border-top",
+			"border-top",
+			"border-right",
+			"faceInRight",
+			"slideInRight",
+			"slideInLeft",
+			"fadeInLeft",
+			"\\n",
+			"map",
+			"yad",
 			"super",
 			"Homoglyphs",
 			"SpecialLen",
@@ -503,6 +504,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"literacy-box",
+			"path",
+			"imgpath",
+			"",
+			"homepage-border-top",
+			"homepage-border-right",
+			"fadeInRight",
+			"faceInRight",
+			"fadeInLeft",
 			""
 		],
 		"reverse": false,
@@ -519,31 +530,35 @@
 			[
 				{
 					"buffer": 0,
-					"file": "bootstrap_websitemakers.info",
+					"file": "templates/page.tpl.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1895,
+						"buffer_size": 3552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2147,
+								2147
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -551,7 +566,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -580,10 +595,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.GoSublime-main-output":
-	{
-		"height": 100.0
-	},
 	"output.GoSublime-source-output":
 	{
 		"height": 100.0
@@ -600,9 +611,17 @@
 	{
 		"height": 118.0
 	},
+	"output.MarGo-output":
+	{
+		"height": 94.0
+	},
 	"output.exec":
 	{
 		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
 	},
 	"output.gscommander:///home/mike/gocode/src/github.com/prinsmike/ex/passgo":
 	{
@@ -616,9 +635,10 @@
 	{
 		"height": 118.0
 	},
+	"project": "bootstrap_websitemakers.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -635,28 +655,55 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 502.0,
 		"selected_items":
 		[
+			[
+				"gem",
+				"~/websitemakers/websites/html/gemco/gemco.sublime-project"
+			],
+			[
+				"",
+				"~/go/src/github.com/prinsmike/appweaver/appweaver.sublime-project"
+			],
 			[
 				"make",
 				"/home/mike/websitemakers/makefiles/makefiles.sublime-project"
 			],
 			[
-				"",
-				"/home/mike/websitemakers/drupal/themes/bootstrap_websitemakers_custom/bootstrap_websitemakers_custom.sublime-project"
+				"js",
+				"/home/mike/go/src/github.com/prinsmike/jstest/jstest.sublime-project"
 			],
 			[
-				"ex",
-				"/home/mike/go/src/github.com/prinsmike/ex/ex.sublime-project"
+				"gohome",
+				"/home/mike/go/src/github.com/prinsmike/gohome/gohome.sublime-project"
+			],
+			[
+				"akef",
+				"/home/mike/devel/drupal/profiles/makefiles/makefiles.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 382.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 269.0,
-	"status_bar_visible": true
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
